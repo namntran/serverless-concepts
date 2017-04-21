@@ -1,0 +1,57 @@
+Serverless Concepts
+Lecture 2
+
+* What is Serverless?
+  - are there really no more servers? No, but the implications for the developers are pretty similar.
+
+  - serverless is causing a shift in responsibility
+
+  - pre-clout responsibilities for devops (budgeting, planning, connecting, powering, housing, purchasing of physical servers).The responsibility process would start all over again to scale.
+
+  - Infrastructure as a Service (IaaS) delivered dramatic improvements in cost, agility, scalability, reliability
+
+  - TCO (Total Cost of Ownership) fell
+
+  - Pricing in hours, pay for instances (virtual servers)
+
+  - Application infrastructure can grow and shrink.
+
+* Going Cloud Native
+
+  - Mobile Backend as a Service (BaaS)
+
+  - replacing monolithic applications with a distributed system of loosley coupled components in the cloud (e.g developers could plug into services such as parse and firebase)
+
+  - offloaded need to develop and maintain identity, authentication, storage etc
+
+  - frontend became a delivery vehicle
+
+  - time to market dropped dramatically
+
+* The Shift Started
+
+  - focus changed from applications and servers; to
+  - tasks and process flows
+
+  - containerisation and micro-services became popular
+
+* What Serverless Does NOT Mean
+
+  - Serverless does not mean there are no servers, developers don't have to think about servers
+
+  - developers offload responsibility to someone you trust
+
+  - plug into elastic compute services
+    * don't need to provision resources based on load (IaaS)
+    * don't need to plan (On-premise servers)
+    * growing the app happens on-demand
+
+* Serverless Usage is Growing
+
+  - integration skills can apply to multiple projects
+
+  - hiring serverless engineers is easier. 
+
+  - familiarity with API transfers between jobs.
+
+  - This a game changer - allows developers to shift focus from the server level to the task level.
