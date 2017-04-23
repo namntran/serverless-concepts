@@ -1,0 +1,29 @@
+The Game Changer
+
+From Serverless BaaS to Serverless FaaS
+
+* Function as a Service (FaaS)
+
+* AWS Lambda is an implementation of FaaS
+
+* Qualities of FaaS:
+  - snippet of code that executes logic in response to events 
+  - packaging, deployment, scaling all handled transparenty
+
+* FaaS Use Cases
+  - Scenarios (Proxiy API credentials, database queries, job dispatching, domain logic)
+  - the function is in charge of executing a task or performing some kind of data extract, transform, load processing,
+  - FaaS makes it easy to write and deploy simple micro-services
+
+* Similiarities to BaaS
+  - The front-end (mobile or single-page web app) is still the delivery vehicle, and responsible for coordinating and connecting to these BaaS/ FaaS services
+  - Developers do not have access to the servers that host the back-end
+
+* Differences to BaaS
+  - FaaS services are usually priced on time of execution and resource consumption (like allocated RAM)
+  - BaaS services are usually priced on storage
+  - FaaS services usually spin up for the length of the execution and then clean themselves up
+  - BaaS services my be long running, but that's an implementation detail of the service provider
+
+  * PaaS still forces the developer to control the number of instances running, this concern is specifically what Serverless removes.
+
