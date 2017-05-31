@@ -1,0 +1,32 @@
+Traditional vs Serverless Architecture
+
+Eras of Provisioning Compute Units
+- Years (1994-2003)
+- Months (2003-2007)
+- Hours (2007-20012)
+- Seconds (20012+)
+
+Traditional Client/Server 3-Tier Architecture
+- Presentation
+- Application
+- Database
+
+Severless Architecture
+- Presentation
+- API Gateway
+- Function(s)
+- Database
+
+Developer Challenges
+- Tooling is still very rough around the edges
+  - Unless the dev team has strong opinions:
+    - Function sprawl can impact:
+      - Developer workflow
+      - Cognitive load
+    - Infrastructure as code best practices still forming
+
+- Writing Statelss code can be tricky
+  - State is offloaded to a cache or database
+  - if function relies on a large dataset, this can be a real challenge
+
+  
